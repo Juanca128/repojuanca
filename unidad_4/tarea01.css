@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(184, 184, 184);
+    font-style:oblique;
+    font-size:xx-large;
+    text-align: center;
+}
+
+
+h2{
+    background-color: rgb(98, 129, 146);
+    font-style:oblique;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.txtdestacado {
+
+    color: rgb(33, 92, 253)
+
+}
