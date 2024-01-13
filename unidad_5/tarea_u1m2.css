@@ -1,0 +1,47 @@
+h1{
+    background-color: rgb(184, 184, 184);
+    font-style:oblique;
+    font-size:xx-large;
+    text-align: center;
+}
+
+
+h2{
+    background-color: rgb(98, 129, 146);
+    font-style:oblique;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3{ 
+     
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 20px 15px 10px rgb(0, 0, 31);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#397ddd+0,66a6e6+39,a2caf0+100 */
+    background: linear-gradient(135deg,  #397ddd 0%,#66a6e6 39%,#a2caf0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+ul{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.txtdestacado {
+
+    color: rgb(209, 1, 1)
+
+}
