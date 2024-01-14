@@ -1,0 +1,82 @@
+
+.caja_ej01
+
+{
+  display: flex;  
+  flex-wrap: wrap;
+  height: 800px;
+  background-color:rgba(199, 199, 199, 0.897);
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  flex-direction: column;
+  align-content: end;
+  
+}
+
+.caja_ej02
+
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgba(199, 199, 199, 0.897);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  
+}
+
+.caja_ej03
+
+{
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  background-color:rgba(199, 199, 199, 0.897);
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  justify-content: space-between;
+  
+}
+
+.caja_hija1
+
+{
+    border-radius: 7px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.caja_hija2
+
+{
+    border-radius: 7px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.caja_hija3
+
+{
+    border-radius: 7px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
