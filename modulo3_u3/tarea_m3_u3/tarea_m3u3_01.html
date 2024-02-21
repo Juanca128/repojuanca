@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <script type="text/javascript">
+
+        const distancia = parseInt(prompt('Ingrese distancia:', ''));
+
+        if (distancia<1000) {
+
+            console.log('Ir a pie');
+
+        }
+
+        else if(1000<=distancia && distancia<10000){
+            console.log('Ir en bicicleta');
+        }
+
+        else if(10000<=distancia && distancia<30000){
+            console.log('Ir en colectivo');
+        }
+
+        else if(30000<=distancia && distancia<100000){
+            console.log('Ir en auto');
+        }
+
+        else {
+            console.log('Ir en avión')
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

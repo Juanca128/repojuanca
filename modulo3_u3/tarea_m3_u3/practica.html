@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <script type="text/javascript">
+
+
+        let lista = [5, 2, 7, 4];
+        let i = 0;
+
+        while (i < 4) {
+
+            if (lista[i + 1] < lista[i]) {
+
+                let aux = lista[i + 1];
+                lista[i + 1] = lista[i];
+                lista[i] = aux;               
+
+                console.log(i)
+                console.log(lista[i]);
+                console.log(lista);
+                i = i + 1;
+            }
+
+        }
+
+        console.log(lista);
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

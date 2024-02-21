@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <script type="text/javascript">
+
+        cant = prompt("ingrese cantidad de números", '');
+        let listado = Array;
+        
+        for(let x=0; x <cant; x++ ){
+            
+            listado[x]=prompt("ingrese valor: ", '');
+        }
+        
+        console.log(listado);
+
+        /*let lista = [2, 5, 7, 15, 3, 4, 9, 13];
+        let rango = lista.length;*/
+        
+        let mayor = parseInt(listado[0]);
+
+
+        for (let i = 0; i < (cant); i++) {
+
+
+            if (listado[i + 1] > mayor) {
+
+                mayor = parseInt (listado[i + 1]);
+
+                console.log(i);
+                console.log(mayor);               
+
+            }
+
+        }
+
+        console.log("El mayor número es: " + mayor);  
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
