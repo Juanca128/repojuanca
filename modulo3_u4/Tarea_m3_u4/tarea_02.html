@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_02</title>
+
+</head>
+
+<body>
+    <div name="div1">
+
+        <label for="Texto">Texto a contar: </label>
+        <textarea name="texto1" id="1" cols="30" rows="10"></textarea>
+        <button id="boton"> CONTAR </button>
+    </div>
+
+    <p id ="2">
+        Probando el recuento.
+    </p>
+
+    <script>
+
+        const contar = document.getElementById('boton');
+        const backcolor = document.getElementById('1');
+        backcolor.style.backgroundColor = 'lightblue'; /*para probar getElementById*/      
+
+
+        contar.addEventListener('click', function () {                       
+
+            console.log("contando");
+            const texto01 = document.getElementById('1').value.length; /*Acá usé getElementsByName y no ma anduvo, con getElementById salió a la primera*/
+            console.log(texto01);
+            alert("el texto tiene: "+texto01+" caracteres.");            
+
+        });
+
+
+
+    </script>
+
+
+
+</body>

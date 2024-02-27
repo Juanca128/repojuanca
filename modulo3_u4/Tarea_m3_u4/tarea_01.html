@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_01</title>
+    <link rel="stylesheet" href="tarea_01.css">
+</head>
+
+<body>
+
+    <div class="contenedor01">
+
+        <button class="boton01" id="red"></button>
+        <button class="boton02" id="yellow"></button>
+        <button class="boton03" id="green"></button>
+
+    </div>
+
+    <script>
+        
+        const contenedor01 = document.getElementsByClassName('contenedor01')[0];
+        const cambioarojo = document.getElementById('red');
+        const cambioamarillo = document.getElementById('yellow');
+        const cambioaverde = document.getElementById('green');
+
+        cambioarojo.addEventListener('click', function () {
+            console.log("cambio a rojo");
+            contenedor01.classList.add('rojo');
+
+        });
+        cambioamarillo.addEventListener('click', function () {
+            console.log("cambio a amarillo");
+            contenedor01.classList.add('amarillo');
+
+        });
+        cambioaverde.addEventListener('click', function () {
+            console.log("cambio a verde");
+            contenedor01.classList.add('verde');
+
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>

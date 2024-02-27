@@ -1,0 +1,46 @@
+.boton01{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    
+
+}
+
+.boton02{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.boton03{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.contenedor01{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 500px;
+    width: 960px;
+}
+
+.contenedor01.rojo{
+    background-color: red;
+}
+.contenedor01.amarillo{
+    background-color:yellow;
+}
+.contenedor01.verde{
+    background-color: green;
+}
