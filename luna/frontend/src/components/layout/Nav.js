@@ -1,40 +1,27 @@
-import './Nav.css';
+import React from 'react';
+import '../../styles/layout/Nav.css';
+import { Link, NavLink } from "react-router-dom";
+
 
 const Nav = (props) => {
 
     return (
+
         <div className="navi">
-            <a
-                className="navi_link"
-                href="nosotros.html"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Nosotros:</a>
-                <a
-                className="navi_link"
-                href="coleccion.html"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Colección:</a>
-                <a
-                className="navi_link"
-                href="compras.html"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Compras:</a>
-                <a
-                className="navi_link"
-                href="contacto.html"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Contacto:</a>
+            <nav>
+                <div>
+                    <ul className="navi_link">
+                        <li><NavLink to="/Home" className={({isActive}) => isActive ? "activo": undefined}>Home</NavLink></li>
+                        <li><NavLink to="/Nosotros" className={({isActive}) => isActive ? "activo": undefined}>Nosotros</NavLink></li>
+                        <li><NavLink to="/Modelos" className={({isActive}) => isActive ? "activo": undefined}>Modelos</NavLink></li>
+                        <li><NavLink to="/Compras" className={({isActive}) => isActive ? "activo": undefined}>Compras</NavLink></li>
+                        <li><NavLink to="/Contacto" className={({isActive}) => isActive ? "activo": undefined}>Contacto</NavLink></li>
+                    </ul>
+                </div>
 
-
+            </nav>
         </div>
+
     );
 }
 

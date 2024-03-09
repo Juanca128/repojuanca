@@ -1,0 +1,51 @@
+.nosotros_w{
+    max-width: 1060px;
+}
+
+.parrafo1 {
+
+    font-family: "Quicksand", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+
+.ilustrado01 {
+
+    border: 3px;
+    max-width: 22%;
+    text-align: center;
+    padding: 13px;
+    background-color: rgb(248, 169, 215);
+    border-radius: 20px;
+    box-shadow: 8px 8px 6px 0px #383838;
+
+
+ }
+
+ .ilustraciones {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+
+ }
+
+ .claseimground {
+    max-width: 150px;
+    border-radius: 50%;
+
+ }
+
+ .navp {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+ }

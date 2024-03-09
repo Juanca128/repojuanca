@@ -1,0 +1,82 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 1060px;
+
+}
+
+.nav3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.parrafo1 {
+
+    font-family: "Quicksand", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.ilustrado {
+
+    border: 3px;
+    max-width: 22%;
+    text-align: center;
+    padding: 13px;
+    background-color: rgb(162, 248, 198);
+    border-radius: 20px;
+    box-shadow: 8px 8px 6px 0px #383838;
+
+
+}
+
+.ilustraciones {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1060px;
+    margin: 15px;
+
+}
+
+
+.claseimgrounded {
+    border-radius: 15%;
+    max-width: 180px;
+
+}
+
+.p_textos {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+
+}
+
+
+.formulario_compra p {
+    display: flex;
+}
+
+.formulario_compra p label {
+    min-width: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 1px;
+    text-align: justify;
+}
+
+.formulario_compra p input,
+.formulario_compra p textarea {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    margin: 8px;
+    margin-right: 15px;
+    width: 200px;
+    background-color: rgba(189, 160, 255, 0.616);
+    resize: none;
+}

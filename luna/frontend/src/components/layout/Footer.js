@@ -1,10 +1,11 @@
-import './Footer.css';
+import React from 'react';
+import '../../styles/layout/Footer.css';
 
 const Footer = (props) => {
 
     return (
         <div class="footer">
-            Web de práctica - Tarea M4U1 - Juan Damonte 2024
+            Web de práctica - Tarea M4U2 - Juan Damonte 2024
         </div>
     );
 }
