@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<p>Tarifa vehículo liviano: 1000 pesos</p>
+<p>Tarifa vehículo pesado: 1500 pesos</p>
+
+<p>Ingrese el peso del vehículo:</p>
+
+<form action="/ingreso" method="post">
+
+    <input type="number" name="peso_vehi"><button>ingresar</button>
+</form>
+
+{{#if peso_vehi}}
+<h3>El peso es de: {{peso_vehi}} kilos.</h3>
+<p>Por ser vehículo liviano, la tarifa es 1000 pesos.</p>
+{{/if}}
