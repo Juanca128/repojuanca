@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+require('dotenv').config(); //Tarea M5U3
+
+var pool = require('./models/bd'); //Tarea M5U3
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -21,6 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+pool.query("select * from luna_compras01").then(function(resultados){
+  console.log(resultados);
+})//Tarea M5U3
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
