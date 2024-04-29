@@ -50,11 +50,15 @@ app.post('/ingreso', function (req, res) {
 
   var peso = 1000;
 
-  if (req.body.peso_vehi > peso) {
+  var auto1 = req.body.peso_vehi; //captura el valor del campo con nombre "peso_vehi" y almacena en variable "auto1"
+  console.log(auto1);
+  
+
+  if (auto1 > peso) {
     res.render('pesado', {
       title: 'Tarea M4U4',
-      peso_vehi: req.body.peso_vehi,
-
+      peso_vehi: auto1,
+      
     });
 
   }
