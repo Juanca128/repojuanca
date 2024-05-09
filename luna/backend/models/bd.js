@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 var util = require('util');
 
-var pool = mysql.createPool({
+var pool = mysql.createPool({  //se conecta a la base de datos con varias conexiones simultáneas
     connectionLimit: 10,
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
